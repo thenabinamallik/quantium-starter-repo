@@ -81,7 +81,7 @@ final_df = pink_df[["Sales", "date", "region"]].rename(
 # -----------------------------
 # 9. Export output
 # -----------------------------
-final_df.to_csv("tasktwo_output.csv", index=False)
+final_df.to_csv("formatted_output.csv", index=False)
 
 print("✅ Rows written:", len(final_df))
 print(final_df.head())
